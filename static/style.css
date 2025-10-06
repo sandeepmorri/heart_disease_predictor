@@ -1,0 +1,17 @@
+body {
+    background: linear-gradient(120deg, #f6d365, #fda085);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    border-radius: 15px;
+    padding: 20px;
+}
+
+h2 {
+    font-weight: bold;
+}
