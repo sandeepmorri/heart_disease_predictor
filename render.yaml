@@ -1,0 +1,10 @@
+cat <<EOL > render.yaml
+services:
+  - type: web
+    name: heart-disease-predictor
+    env: python
+    branch: main
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    pythonVersion: 3.12
+EOL
